@@ -1,0 +1,27 @@
+大カテゴリ 中カテゴリ 口コミ件数順URL
+スキンケア・基礎化粧品 洗顔料 http://www.cosme.net/item/item_id/900/products
+スキンケア・基礎化粧品 クレンジング http://www.cosme.net/item/item_id/901/products
+スキンケア・基礎化粧品 化粧水 http://www.cosme.net/item/item_id/902/products
+スキンケア・基礎化粧品 乳液・美容液など http://www.cosme.net/item/item_id/903/products
+スキンケア・基礎化粧品 パック・フェイスマスク http://www.cosme.net/item/item_id/904/products
+スキンケア・基礎化粧品 目元・口元スペシャルケア http://www.cosme.net/item/item_id/905/products
+スキンケア・基礎化粧品 その他スキンケア http://www.cosme.net/item/item_id/906/products
+メイクアップ アイブロウ http://www.cosme.net/item/item_id/909/products
+メイクアップ アイライナー http://www.cosme.net/item/item_id/910/products
+メイクアップ マスカラ http://www.cosme.net/item/item_id/911/products
+メイクアップ アイシャドウ http://www.cosme.net/item/item_id/912/products
+メイクアップ 口紅・グロス・リップライナー http://www.cosme.net/item/item_id/913/products
+メイクアップ チーク http://www.cosme.net/item/item_id/914/products
+メイクアップ ネイル・ネイルケア http://www.cosme.net/item/item_id/915/products
+ベースメイク ファンデーション http://www.cosme.net/item/item_id/916/products
+ベースメイク 化粧下地・コンシーラー http://www.cosme.net/item/item_id/917/products
+ベースメイク フェイスパウダー http://www.cosme.net/item/item_id/918/products
+香水  http://www.cosme.net/item/item_id/919/products
+ヘアケア・スタイリング シャンプー・コンディショナー http://www.cosme.net/item/item_id/920/products
+ヘアケア・スタイリング スペシャルヘアケア http://www.cosme.net/item/item_id/921/products
+ヘアケア・スタイリング ヘアカラー・パーマ http://www.cosme.net/item/item_id/922/products
+ヘアケア・スタイリング ヘアスタイリング http://www.cosme.net/item/item_id/923/products
+ボディケア・オーラルケア デイリーボディケア http://www.cosme.net/item/item_id/924/products
+ボディケア・オーラルケア スペシャルボディケア・パーツ http://www.cosme.net/item/item_id/925/products
+ボディケア・オーラルケア その他ボディケア http://www.cosme.net/item/item_id/926/products
+ボディケア・オーラルケア オーラルケア http://www.cosme.net/item/item_id/927/products

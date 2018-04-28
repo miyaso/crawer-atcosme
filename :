@@ -1,0 +1,35 @@
+# -*- coding:utf-8 -*-
+import urllib2
+from bs4 import BeautifulSoup
+import pandas as pd
+
+BASE_URL =  'http://www.cosme.net/item/item_id/900/products'
+
+url_list = [BASE_URL+'/srt/1'] + [BASE_URL+'/page/{0}/srt/1'.format(i) for i in range(1, 1)]
+
+output_list = []
+for url in url_list:
+    html = urllib2.urlopen(url)
+    soup = BeautifulSoup(html)
+    # itemリスト抽出
+    crawl_items = soup.find_all("div", class_="keyword-product-section")
+    for item in crawl_items:
+        item_dict = {} 
+        # 基本情報
+        item_dict['brand'] = item.find(class_="brand").text
+        item_dict['name'] = item.find(class_="item").text
+        item_dict['url'] = item.find(class_="item").a.attrs['href']
+        # スペック系
+        item_dict['reviewer-average'] = item.find(class_="reviewer-average")
+        item_dict['point'] = item.find(class_="point").text.strip('pt')
+        item_dict['kuchikomi'] = item.find(class_="spec").find(class_="count").span.text
+        item_dict['price'] = item.find_all(class_="spec")[1].find(class_='price').text.strip(u'\u672c\u4f53\u4fa1\u683c\uff1a')
+        item_dict['sell'] = item.find_all(class_="spec")[1].find(class_='sell').text.strip(u'\u767a\u58f2\u65e5\uff1a')
+        # カテゴリー
+        item_dict['category'] =  '|'.join([ c.text for c in item.find(class_="category").select('a')])
+        # リストに追加
+        output_list.append(item_dict)
+
+pd.DataFrame.to_csv('item_list.csv', index=False)
+
+
